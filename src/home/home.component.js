@@ -3,8 +3,8 @@
 
     angular
         .module("app")
-        .component("tsApp", {
+        .component("tsHome", {
             controller: function(){},
-            template: "<ui-view></ui-view>"
+            templateUrl: "/src/home/home.template.html"
         });
 })();
